@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="MbW-z1-Mch">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="FuturaPTBold.otf">
+            <string>FuturaPT-Bold</string>
+        </array>
+        <array key="FuturaPTMedium.otf">
+            <string>FuturaPT-Medium</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--Welcome View Controller-->
+        <scene sceneID="GVP-dI-FJB">
+            <objects>
+                <viewController id="MbW-z1-Mch" customClass="WelcomeViewController" customModule="TAGit" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oZX-zX-kNS">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_blue_gradient" translatesAutoresizingMaskIntoConstraints="NO" id="OO4-97-tOk">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome to TAGit!" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oWR-TJ-lh6">
+                                <rect key="frame" x="70.5" y="246.5" width="273.5" height="128.5"/>
+                                <fontDescription key="fontDescription" name="FuturaPT-Bold" family="Futura PT" pointSize="50"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="letterSpacing">
+                                        <real key="value" value="0.40000000000000002"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Watch it. Want it. TAGit." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="86c-PW-Kxq">
+                                <rect key="frame" x="111" y="435" width="192.5" height="26"/>
+                                <fontDescription key="fontDescription" name="FuturaPT-Medium" family="Futura PT" pointSize="20"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="letterSpacing">
+                                        <real key="value" value="0.40000000000000002"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="OO4-97-tOk" firstAttribute="leading" secondItem="oZX-zX-kNS" secondAttribute="leading" id="AYN-WA-ijv"/>
+                            <constraint firstItem="86c-PW-Kxq" firstAttribute="centerX" secondItem="oZX-zX-kNS" secondAttribute="centerX" id="DI8-wt-eoA"/>
+                            <constraint firstItem="oWR-TJ-lh6" firstAttribute="centerX" secondItem="oZX-zX-kNS" secondAttribute="centerX" id="Skr-N7-gBr"/>
+                            <constraint firstItem="86c-PW-Kxq" firstAttribute="centerY" secondItem="oZX-zX-kNS" secondAttribute="centerY" id="WHk-Q4-S0Y"/>
+                            <constraint firstItem="86c-PW-Kxq" firstAttribute="top" secondItem="oWR-TJ-lh6" secondAttribute="bottom" constant="60" id="XW3-0G-L06"/>
+                            <constraint firstItem="OO4-97-tOk" firstAttribute="top" secondItem="oZX-zX-kNS" secondAttribute="top" id="ctS-E2-BRu"/>
+                            <constraint firstAttribute="trailing" secondItem="OO4-97-tOk" secondAttribute="trailing" id="f2w-0k-ClG"/>
+                            <constraint firstAttribute="bottom" secondItem="OO4-97-tOk" secondAttribute="bottom" id="hef-0H-Ih1"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="4Pf-rF-uJG"/>
+                    </view>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="showTopBar" value="NO"/>
+                    </userDefinedRuntimeAttributes>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="392-QS-GDE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-414" y="-174"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bg_blue_gradient" width="375" height="812"/>
+    </resources>
+</document>

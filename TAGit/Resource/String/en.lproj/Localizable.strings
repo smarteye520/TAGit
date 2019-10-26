@@ -1,0 +1,59 @@
+/* 
+  Localizable.strings
+  TAGit
+
+  Created by Macmini on 6/17/19.
+  Copyright © 2019 MajestykApps. All rights reserved.
+*/
+
+"invalid_fullname" = "Please enter a valid first and last name.";
+"invalid_email" = "Please enter a valid email address.";
+"invalid_password" = "Password must be 8 characters min.";
+"tos_pp" = "By signing up, you agree to our Terms and Conditions & Privacy Policy";
+"terms_conditions" = "Terms and Conditions";
+"privacy_policy" = "Privacy Policy";
+"female" = "Female";
+"male" = "Male";
+"non_binary" = "Non-binary";
+"picked_just_for_you" = "Picked Just for You";
+"tag_your_favorite_shows_now" = "TAG your favorite shows now";
+"want_new_looks_from_your_favorite_shows" = "Want new looks from your favorite shows? Tap below to start TAGging your all your faves!";
+"new_looks_episodes" = "New Looks & Episodes";
+"shop" = "SHOP";
+"suggested_for_you" = "Suggested for you";
+"shows" = "SHOWS";
+"items" = "ITEMS";
+"cancel" = "Cancel";
+"yes" = "Yes";
+"done" = "DONE";
+"remove" = "Remove";
+"capital_remove" = "REMOVE";
+"select" = "Select";
+"clothing" = "Clothing";
+"shows" = "Shows";
+"toast_show_removed" = "Show Successfully Removed!";
+"toast_item_removed" = "Item Successfully Removed!";
+"alert_confirm_remove_shows" = "Are you sure you want to remove the selected shows from ‘Favorites’?";
+"alert_confirm_remove_items" = "Are you sure you want to remove the selected items from ‘Favorites’?";
+"episodes" = "Episodes";
+"looks_from_this_episode" = "Looks from this episode";
+"setting_profile" = "Profile";
+"setting_notifications" = "Notifications";
+"setting_faq" = "FAQ";
+"setting_support" = "Support";
+"setting_privacy_policy" = "Privacy Policy";
+"setting_terms_service" = "Terms of Service";
+"setting_logout" = "Logout";
+"select_birthday" = "Select Birthday";
+"select_gender" = "Select Gender";
+
+"tag_favorite_alert_title" = "TAGit found the show “Broad City”!";
+"tag_favorite_alert_message" = "Would you like to tag this show and add this show to “Favorites”?";
+"no_thanks" = "No Thanks";
+"add_show" = "Add Show";
+"password_changed" = "Password Changed!";
+"changes_saved" = "Changes Saved!";
+"send_to" = "Send to";
+"are_you_sure" = "Are you sure?";
+
+"error" = "Error";

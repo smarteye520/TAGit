@@ -1,0 +1,121 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - FBSDKCoreKit (4.42.0):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.42.0):
+    - FBSDKCoreKit
+  - GoogleSignIn (4.4.0):
+    - "GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)"
+    - "GoogleToolboxForMac/NSString+URLArguments (~> 2.1)"
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - "GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0)":
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - "GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)"
+  - "GoogleToolboxForMac/NSString+URLArguments (2.2.0)"
+  - GTMSessionFetcher/Core (1.2.1)
+  - Hero (1.4.0)
+  - Intercom (5.4.0)
+  - IQKeyboardManagerSwift (6.0.4)
+  - KeychainSwift (16.0.1)
+  - Kingfisher (5.2.0)
+  - Localize-Swift (2.0.0)
+  - ObjectMapper (3.4.2)
+  - PromiseKit (6.8.3):
+    - PromiseKit/CorePromise (= 6.8.3)
+    - PromiseKit/Foundation (= 6.8.3)
+    - PromiseKit/UIKit (= 6.8.3)
+  - PromiseKit/CorePromise (6.8.3)
+  - PromiseKit/Foundation (6.8.3):
+    - PromiseKit/CorePromise
+  - PromiseKit/UIKit (6.8.3):
+    - PromiseKit/CorePromise
+  - SnapKit (4.2.0)
+  - SPPermission (3.0.3)
+  - SVProgressHUD (2.2.5)
+  - SwiftLint (0.31.0)
+  - SwiftyJSON (5.0.0)
+  - Toast (4.0.0)
+  - XLPagerTabStrip (8.1.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - FBSDKLoginKit
+  - GoogleSignIn
+  - Hero
+  - Intercom
+  - IQKeyboardManagerSwift (= 6.0.4)
+  - KeychainSwift
+  - Kingfisher
+  - Localize-Swift
+  - ObjectMapper
+  - PromiseKit
+  - SnapKit (~> 4.2.0)
+  - SPPermission
+  - SVProgressHUD
+  - SwiftLint
+  - SwiftyJSON
+  - Toast
+  - XLPagerTabStrip
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Bolts
+    - FBSDKCoreKit
+    - FBSDKLoginKit
+    - GoogleSignIn
+    - GoogleToolboxForMac
+    - GTMSessionFetcher
+    - Hero
+    - Intercom
+    - IQKeyboardManagerSwift
+    - KeychainSwift
+    - Kingfisher
+    - Localize-Swift
+    - ObjectMapper
+    - PromiseKit
+    - SnapKit
+    - SPPermission
+    - SVProgressHUD
+    - SwiftLint
+    - SwiftyJSON
+    - Toast
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  FBSDKCoreKit: aa42f1c384775f8b075f53a43080474278e9701d
+  FBSDKLoginKit: 373830c68aa48c9e8f0bfed93a3e32d2ca8963a0
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  Hero: bac92350d7201a1a940003e0767c7b52ce7c99a1
+  Intercom: d2f2f7ea420f37702cbce81606b96c42efa2a368
+  IQKeyboardManagerSwift: 36dbe324b4f9793f5f41ba5227f3e7c76dfefd50
+  KeychainSwift: 4209611373ca4a098e09b1e547eebd87c544dcc4
+  Kingfisher: 07067cfacf371117330dceb4b4b8f5c4b691ab42
+  Localize-Swift: c798ec9286494866f7068f85f7c71283ac5bdab4
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  PromiseKit: 94c6e781838c5bf4717677d0d882b0e7250c80fc
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SPPermission: e73763baa7785bb53cd6a95a021ef2a40ec1bf04
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftLint: 7a0227733d786395817373b2d0ca799fd0093ff3
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
+  XLPagerTabStrip: 22d4c58200d7c105e0e407ab6bfd01a5d85014be
+
+PODFILE CHECKSUM: d1a94061a541742bae90233c4ee602778dcdc916
+
+COCOAPODS: 1.7.4

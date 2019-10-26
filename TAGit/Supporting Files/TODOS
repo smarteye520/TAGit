@@ -1,0 +1,22 @@
+[START RegistrationViewController]
+    - Image for logo
+    - Images for register password field
+    - Login to the backend
+[END RegistrationViewController]
+
+[START User]
+    - User implementation
+[END User]
+
+[START TVShow]
+    - TVShow implementation
+[END TVShow]
+
+
+[START HomeCollectionViewCell]
+    • Add favorite button images
+[END HomeCollectionViewCell]
+
+[START HomeViewModel]
+    • DataProvider (Network)
+[END HomeViewModel]

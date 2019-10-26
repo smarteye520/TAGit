@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TagFavoriteShowsView" customModule="TAGit" customModuleProvider="target">
+            <connections>
+                <outlet property="contentView" destination="3eC-Eh-Gsc" id="tXN-pr-xPe"/>
+                <outlet property="detailLabel" destination="jZE-cZ-cL4" id="qpK-36-CmK"/>
+                <outlet property="tagFavoriteShowsButton" destination="rKh-5D-nz9" id="ubl-vT-vo2"/>
+                <outlet property="titleLabel" destination="7gK-Bn-gYw" id="M7b-2t-aOB"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="3eC-Eh-Gsc">
+            <rect key="frame" x="0.0" y="0.0" width="456" height="293"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Want new looks from your favorite shows? Tap below to start TAGging all your faves!" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jZE-cZ-cL4">
+                    <rect key="frame" x="24" y="99" width="408" height="49"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Looks &amp; Episodes" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7gK-Bn-gYw">
+                    <rect key="frame" x="13" y="3" width="160" height="72"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="72" id="j5d-4j-hHi"/>
+                        <constraint firstAttribute="width" constant="160" id="roZ-MH-j6S"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="25"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                    <size key="shadowOffset" width="0.0" height="0.0"/>
+                </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rKh-5D-nz9">
+                    <rect key="frame" x="24" y="188" width="408" height="70"/>
+                    <color key="backgroundColor" white="0.19765803367579907" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="70" id="JV7-bF-dZu"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="boldSystem" pointSize="22"/>
+                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <state key="normal" title="TAG your favorite shows now ▶︎"/>
+                    <connections>
+                        <action selector="tagFavoriteShowsButtonPressed:" destination="-1" eventType="touchUpInside" id="enb-h4-vva"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="7gK-Bn-gYw" firstAttribute="top" secondItem="Xhd-ac-YOy" secondAttribute="top" constant="3" id="Apl-Tz-Zxv"/>
+                <constraint firstItem="jZE-cZ-cL4" firstAttribute="top" secondItem="7gK-Bn-gYw" secondAttribute="bottom" constant="24" id="BlI-Fg-g6A"/>
+                <constraint firstItem="7gK-Bn-gYw" firstAttribute="leading" secondItem="Xhd-ac-YOy" secondAttribute="leading" constant="13" id="DlU-pF-7FG"/>
+                <constraint firstItem="jZE-cZ-cL4" firstAttribute="leading" secondItem="Xhd-ac-YOy" secondAttribute="leading" constant="24" id="QGO-ar-Kph"/>
+                <constraint firstItem="rKh-5D-nz9" firstAttribute="leading" secondItem="Xhd-ac-YOy" secondAttribute="leading" constant="24" id="RmV-Kk-ECq"/>
+                <constraint firstItem="rKh-5D-nz9" firstAttribute="top" secondItem="jZE-cZ-cL4" secondAttribute="bottom" constant="40" id="XIR-LU-Lng"/>
+                <constraint firstItem="Xhd-ac-YOy" firstAttribute="trailing" secondItem="jZE-cZ-cL4" secondAttribute="trailing" constant="24" id="cqy-YH-Bvf"/>
+                <constraint firstItem="Xhd-ac-YOy" firstAttribute="trailing" secondItem="rKh-5D-nz9" secondAttribute="trailing" constant="24" id="ozb-uW-x10"/>
+                <constraint firstItem="Xhd-ac-YOy" firstAttribute="bottom" secondItem="rKh-5D-nz9" secondAttribute="bottom" priority="999" constant="35" id="tey-GX-G3p"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="Xhd-ac-YOy"/>
+            <point key="canvasLocation" x="-187.19999999999999" y="-128.18590704647679"/>
+        </view>
+    </objects>
+</document>
