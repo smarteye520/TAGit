@@ -1,5 +1,8 @@
 # TAGit-iOS
 
+- App Link
+https://apps.apple.com/us/app/tagit/id692977241
+
 ## Project setup
 
 ### Requirements
